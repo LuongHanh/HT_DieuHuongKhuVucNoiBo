@@ -1,0 +1,120 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  margin-top: 72px;
+}
+
+.container {
+  text-align: center;
+  padding: 0px 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.textBando {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.title {
+  color: #333;
+  text-align: center;
+  display: block;
+  margin: 82px 0px 20px;
+}
+
+.mapImage {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #27a4f2;
+  border: 1px solid #27a4f2;
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f5f5f5;
+  padding: 30px;
+  border-radius: 8px;
+  width: 60%;
+}
+
+.squareButton {
+  width: 120px;
+  height: 120px;
+  background-color: #6ec2f7;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  text-overflow: ellipsis;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px #6585e6;
+}
+
+.squareButton:hover {
+  color: #cfebfc;
+  background-color: #27a4f2;
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px #27a4f2;
+}
+
+.selectedMapInfo {
+  font-size: 1.5rem;
+  color: #444;
+  padding: 30px;
+  width: 28%;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  margin-left: 20px;
+  position: fixed;
+  top: 72px;
+  right: 20px;  
+  left: 64%;
+}
+
+.selectedMapInfo h2 {
+  margin: 0px 0px 10px;
+}
+
+.tenkv {
+  font-size: 1.8rem;
+  color: #27a4f2; /* màu xanh nổi bật tên khu vực */
+  margin-bottom: 10px;
+}
+
+.selectedMapInfo ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.selectedMapInfo li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Styling riêng cho từng dòng nếu cần */
+.diachi {
+  font-weight: 500;
+}
+
+.loaikv {
+  color: #666;
+  opacity: 0.6; /* làm mờ một chút */
+}
+
+.dientich {
+  color: #009900; /* màu xanh lá cây cho diện tích */
+  font-weight: bold;
+}
+

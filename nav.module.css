@@ -1,0 +1,82 @@
+#nav {
+    background-color: #1b41b3;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.info, .navItems{
+    display: flex;
+    align-items: center;
+}
+.navItem {
+    margin: 0 6px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 14px;
+    font-size: 16px;
+}
+.navItem:last-child {
+    border-left: 2px solid #fff;
+    padding: 0px 8px;
+}
+
+.navItem:last-child button{
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    display: block;
+    padding: inherit;
+}
+
+.navItem:last-child button:hover{
+    box-shadow: #fff 0px 10px 20px rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.icon img{
+    margin-right: 8px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.title p{
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+}
+.navItem a{
+    color: white;
+    text-decoration: none;
+}
+.navItem a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    background-color: #ffffff33; /* Trắng nhẹ mờ (50% opacity) */
+}
+
+.userInfo {
+    cursor: pointer;
+    display: flex;
+    align-items: center
+}
+
+.userInfo span {
+    margin-left: 6px;
+}

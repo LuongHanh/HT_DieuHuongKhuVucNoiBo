@@ -1,0 +1,135 @@
+.adminPage {
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 62px;
+  }
+  .adminPage h2{
+    margin: 0px;
+  }
+  .mainContainer {
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+  }
+  
+  /* BÊN TRÁI */
+  .leftPanel {
+    width: 35%;
+    background-color: #f8f9fa;
+    padding: 0px 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .leftPanel p {
+    color: red;
+  }
+
+  .blockBTN {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* BÊN PHẢI */
+  .rightPanel {
+    width: 65%;
+    background-color: #fff;
+    padding: 0px 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .section {
+    margin-bottom: 24px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+  }
+  
+  .card {
+    background-color: #e9ecef;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .crudBtn {
+    margin: 6px 6px 6px 0;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .crudBtn:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 2px 4px #0056b3 ;
+  }
+  
+  .logoutBtn {
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .logoutBtn:hover {
+    background-color: #b02a37;
+    box-shadow: 0px 2px 4px #b02a37 ;
+  }
+  
+  .popupOverlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popupBox {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 400px;
+    max-width: 90%;
+  }
+  
+  .popupBox h3 {
+    margin-top: 0px;
+  }
+
+  .popupBox p {
+    text-align: center;
+    margin: 30px 0px;
+  }
+
+  .popupList {
+    max-height: 150px;
+    overflow-y: auto;
+    margin: 12px 0;
+    padding-left: 20px;
+  }
+  
+  .popupButtons {
+    text-align: end;
+  }
+
+  .popupButtons button {
+    margin-right: 12px;
+    padding: 6px 10px;
+  }
+
+  .popupButtons button:hover {
+    background-color: red;
+    color: white;
+  }
+  

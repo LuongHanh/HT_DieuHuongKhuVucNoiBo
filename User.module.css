@@ -1,0 +1,130 @@
+.userPage {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 10px 30px;
+  background: linear-gradient(145deg, #f0f4ff, #ffffff);
+  border-radius: 20px;
+  box-shadow: 0 4px 4px #1b41b3;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  color: #1b41b3;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  font-size: 28px;
+}
+
+/* Two-column layout */
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+/* Left panel */
+.leftPanel {
+  text-align: center;
+  width: 30%;
+}
+
+/* Right panel */
+.rightPanel {
+  width: 70%;
+}
+
+.section {
+  background: #ffffffee;
+  border: 1px solid #e0e6f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 10px rgba(74, 106, 255, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-2px);
+}
+
+.section h3 {
+  color: #4a6aff;
+  margin-bottom: 15px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.leftPanel .section strong {
+  display: block;
+}
+
+input[type="password"] {
+  width: 95%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input[type="password"]:focus {
+  border-color: #4a6aff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 106, 255, 0.3);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4a6aff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background-color: #3651d4;
+  transform: scale(1.03);
+  box-shadow: 0px 2px 4px #3651d4;
+}
+
+.logoutBtn {
+  background-color: #ff4a4a;
+  margin-top: 36px;
+}
+
+.logoutBtn:hover {
+  background-color: #e03030;
+  box-shadow: 0px 2px 4px #e03030;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nameJourney:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #3651d4;
+  text-shadow: 0 5px 10px rgba(74, 106, 255, 0.3);
+}
